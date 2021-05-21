@@ -11,9 +11,9 @@ const HeaderNav = ( ) =>{
         <div className="header-nav_block">
             <div className="header-logo_block">
                 <div className="header-nav_logo"/>
-                <div>
-                    <h2>TURKISH AIRLINE</h2>
-                    <p>FLYING TRAINING CENTER</p>
+                <div className="header-logo_text">
+                    <h2 className="header-nav_title">TURKISH AIRLINE</h2>
+                    <p className="header-nav_text">FLYING TRAINING CENTER</p>
                 </div> 
             </div>
                 <nav className="header-nav">
