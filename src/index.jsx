@@ -5,6 +5,6 @@ import App from './components/App.jsx';
 
 
 render(
-        <App/>
+<App/>
    ,document.getElementById('root')
 )
