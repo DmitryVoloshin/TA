@@ -1,4 +1,5 @@
 import React from 'react';
+import MainContent from './main-content';
 import MainSlider from './main-slider';
 
 
@@ -9,6 +10,7 @@ const MainBlock = ( ) =>{
     return (
         <main className="main-block">
             <MainSlider/>
+            <MainContent/>
         </main>
     )
 }
