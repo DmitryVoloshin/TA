@@ -1,5 +1,7 @@
 import React from 'react';
 
+import search from './../../../../assets/icons/SVGS/search.svg';
+import language from './../../../../assets/icons/SVGS/language.svg';
 import './HeaderNav.less'
 
 
@@ -8,6 +10,8 @@ const HeaderNav = ( ) =>{
     const links = ['About us',"Simulators","Trainings","Schedule","Contact"]
 
     return(
+        <>
+        <div className="header-nav_gradient"/>
         <div className="header-nav_block">
             <div className="header-logo_block">
                 <div className="header-nav_logo"/>
@@ -28,8 +32,16 @@ const HeaderNav = ( ) =>{
                     </ul>
                 </nav>
     
-            <div className="header-right_nav">svgs</div>
+            <ul className="header-right_nav">
+                  <li className="right-nav_item">
+                      <img src={search}/>
+                  </li>
+                  <li className="right-nav_item">
+                      <img src={language}/>
+                  </li>
+            </ul>
         </div>
+        </>
     )
 }
 

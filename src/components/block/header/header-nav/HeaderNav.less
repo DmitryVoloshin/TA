@@ -1,10 +1,18 @@
 .header-nav_block{
+    position: relative;
     color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     font-size: 25px;
+}
+.header-nav_gradient{
+    position: absolute;
+    top:0px;
+    background: linear-gradient(180deg, #CADFFF 0%, rgba(255, 255, 255, 0) 60.26%);
+    height: 529px;
+    width: 1440px;
 }
 .header-logo_block{
     display: flex;
@@ -13,9 +21,14 @@
     width: 186px;
     height: 36px;
     padding-top: 44px;
+
 }
 .header-right_nav{
     padding-right: 150px;
+    display: flex;
+}
+.right-nav_item:nth-child(2){
+    padding-left: 10px;
 }
 .header-logo{
     width: 46px;
@@ -68,4 +81,8 @@ font-size: 16px;
 line-height: 19px;
 
 letter-spacing: 0.01em;
+}
+
+.header-nav_item{
+    padding-left: 39px;
 }

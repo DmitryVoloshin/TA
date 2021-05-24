@@ -10,8 +10,7 @@ const HeaderBlock = ( ) =>{
          
             <HeaderNav/>
             <HeaderSlider/>
-            <div className="header-slider_block">
-            </div>
+            <div className="header-gradient_block"/>
         </div>
     )
 }
