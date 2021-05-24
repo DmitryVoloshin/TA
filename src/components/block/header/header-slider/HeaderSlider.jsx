@@ -7,11 +7,7 @@ SwiperCore.use([Pagination]);
 
 import './HeaderSlider.less'
 import SliderContent from './slider-content';
-// import "swiper/swiper.min.css";
-// import "swiper/components/pagination/pagination.min.css";
 
-
-// SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 
 const HeaderSlider = ( ) =>{
     return (
