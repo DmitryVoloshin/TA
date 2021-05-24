@@ -20,7 +20,7 @@ const HeaderNav = ( ) =>{
                     <ul className="header-nav_list">
                         {links.map((item) =>{
                             return <li className="header-nav_item">
-                                        <a href="#" className="anv-item_link">
+                                        <a href="#" className="nav-item_link">
                                             {item}
                                         </a>
                                     </li>
