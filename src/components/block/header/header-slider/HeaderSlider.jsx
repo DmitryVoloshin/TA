@@ -27,8 +27,14 @@ const HeaderSlider = ( ) =>{
               <SliderContent/>
           </SwiperSlide>
           
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
+          <SwiperSlide>
+              <SliderContent/>
+          </SwiperSlide>
+
+          <SwiperSlide>
+              <SliderContent/>
+          </SwiperSlide>
+
         </Swiper>
       </>
     )
