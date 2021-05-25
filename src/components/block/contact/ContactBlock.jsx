@@ -4,6 +4,7 @@ import './ContactBlock.less'
 
 const ContactBlock = ( ) =>{
     return (
+        <div className="contact-block_wrapper">
         <div className="contact-block">
             <h2 className="contact-block_title">CONTACT US</h2>     
             <p className="contact-second_title">WANT TO BECOME A PILOT?</p>
@@ -20,6 +21,7 @@ const ContactBlock = ( ) =>{
                     E-REGISTRATION
                 </button>
             </div>
+         </div>
          </div>
     )
 }

@@ -10,17 +10,18 @@
 
 .circles {
     position: absolute;
-    height: 10px;
-    width: 10px;
-    background-color: chocolate;
+    width: 760px;
+    height: 760px;
+    background: url('./../../../assets/icons/SVGS/circles.svg') center no-repeat;
+ 
 }
 
 .background-poligon {
     position: absolute;
-    height: 10px;
-    width: 10px;
-    background-color: red;
-    left: 10px;
+    width: 1440px;
+    height: 299px ;
+    background: url('./../../../assets/icons/SVGS/bg.svg');
+    top:285px
 }
 
 .training-block_title {
@@ -31,11 +32,13 @@
     font-weight: bold;
     font-size: 50px;
     line-height: 59px;
+    padding-top: 50px;
     /* identical to box height */
 
     letter-spacing: 0.2em;
 
     color: #BA302C;
+    z-index: 1;
 }
 
 .training-second_title {
@@ -48,25 +51,44 @@
     line-height: 21px;
 
     color: #151515;
+    z-index: 1;
 }
-
 .training-block_slider{
-    width: 627px;
-    height: 192px;
-    margin-top: 70px;
-    background-color: cornflowerblue;
+    width: 980px;
+    height: 392px;
 }
-.mySwiperTraining{
-    
+.mySecondSwiper{
+    .swiper-pagination-bullet{
+        background: #BA302C;
+       
+    }
+    .swiper-pagination-bullet::after{
+        content: "1";
+    }
+    .swiper-pagination-bullet::before{
+        content: 'pepe';
+    }
+    .second-swiper_item{
+  
+      height: 200px;
+      width: 660px;
+    }
+    .swiper-button-prev{
+        position: absolute;
+        top:235px;
+        left: 30px;
+        height: 40px;
+        width: 40px;
+        background: url('./../../../assets/icons/SVGS/arrowPrev.svg');
+    }
+    .swiper-button-next{
+        position: absolute;
+        top: 235px;
+        right: 30px;
+        right: 30px;
+        height: 40px;
+        width: 40px;
+        background: url('./../../../assets/icons/SVGS/arrowNext.svg');
+    }
 }
-
-.mySwiperTraining .swiper-pagination-bullet{
-    background-color: white;
-}
-.swiper-pagination .swiper-pagination-clickable .swiper-pagination-bullets .swiper-pagination-bullets-dynamic{
-    margin:0px
-}
-
-
-
 
