@@ -4,12 +4,13 @@ import './ContactBlock.less'
 
 const ContactBlock = ( ) =>{
     return (
+     
         <div className="contact-block_wrapper">
         <div className="contact-block">
             <h2 className="contact-block_title">CONTACT US</h2>     
             <p className="contact-second_title">WANT TO BECOME A PILOT?</p>
             <p className="contact-main_text">
-                nquietude simplicity terminated she compliment remarkablyfew her nay. 
+                Inquietude simplicity terminated she compliment remarkablyfew her nay. 
                 The weeksInquietude simplicity terminated she compliment remarkablyfew her nay. 
                 The weeksInquietude simplicity terminated she compliment remarkablyfe
             </p>
@@ -22,7 +23,10 @@ const ContactBlock = ( ) =>{
                 </button>
             </div>
          </div>
+         <div className="contact-block_circle"/>
          </div>
+         
+      
     )
 }
 

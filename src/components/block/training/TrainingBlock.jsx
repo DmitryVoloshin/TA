@@ -1,6 +1,9 @@
 import React from 'react'
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Navigation } from "swiper/core";
+
+SwiperCore.use([Navigation]);
 
 import plane from './../../../assets/imgs/plane2.png'
 
@@ -18,12 +21,35 @@ const TrainingBlock = ( ) =>{
             <Swiper
                 pagination={{
                 clickable:true,
-                dynamicBullets: true
+                dynamicBullets: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' +'<p class="pepe">BOEING</p>' + "</span>" ;
+                  }
+                // renderBullet: function (index, className) {
+                //     return (
+                //         <div className="rednered-bullet">
+                //             <span className={className}></span>
+                //         </div>
+                //     ) ;
+                //   }
                 }}
+                
                 // loop={true}
                 navigation={true}
+        
                 className="mySecondSwiper"
+                
             >
+                <SwiperSlide>
+                    <div className="second-swiper_item">
+                        <img src={plane}/>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="second-swiper_item">
+                        <img src={plane}/>
+                    </div>
+                </SwiperSlide>
                 <SwiperSlide>
                     <div className="second-swiper_item">
                         <img src={plane}/>
@@ -41,8 +67,9 @@ const TrainingBlock = ( ) =>{
                 </SwiperSlide>
             
             </Swiper>
-      
+                
            </div>
+           <button className="training-block_button"> SELECT </button>
         </div>
     )
 }

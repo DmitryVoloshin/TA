@@ -18,6 +18,7 @@ const HeaderSlider = ( ) =>{
             clickable: true
           }}
           className="mySwiper"
+          loop={true}
         >
           <SwiperSlide>
               <SliderContent/>

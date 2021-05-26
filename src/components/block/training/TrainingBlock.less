@@ -21,7 +21,7 @@
     width: 1440px;
     height: 299px ;
     background: url('./../../../assets/icons/SVGS/bg.svg');
-    top:285px
+    top:325px
 }
 
 .training-block_title {
@@ -58,23 +58,26 @@
     height: 392px;
 }
 .mySecondSwiper{
+
+
+    .swiper-pagination{
+        width: 600px !important; 
+        height: 35px;
+        // display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .swiper-pagination-bullet{
-        background: #BA302C;
-       
-    }
-    .swiper-pagination-bullet::after{
-        content: "1";
-    }
-    .swiper-pagination-bullet::before{
-        content: 'pepe';
+        margin-top: 17px !important;
     }
     .second-swiper_item{
-  
       height: 200px;
       width: 660px;
     }
     .swiper-button-prev{
+        cursor: pointer;
         position: absolute;
+        z-index: 2;
         top:235px;
         left: 30px;
         height: 40px;
@@ -82,7 +85,9 @@
         background: url('./../../../assets/icons/SVGS/arrowPrev.svg');
     }
     .swiper-button-next{
+        cursor: pointer;
         position: absolute;
+        z-index: 2;
         top: 235px;
         right: 30px;
         right: 30px;
@@ -90,5 +95,41 @@
         width: 40px;
         background: url('./../../../assets/icons/SVGS/arrowNext.svg');
     }
-}
 
+    .swiper-pagination-bullet {
+        // margin-right: 140px !important;
+        margin-right: 100px !important;
+        width: 6px;
+        height: 6px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 22px;
+        opacity: 1;
+        background: #BA302C;
+        .pepe{
+            position: absolute;
+            left: 10px;
+            top: -5px;
+            color: black;
+            font-weight: 600;
+        }
+      }
+
+}
+.training-block_button{
+    margin-top: 75px;
+    z-index: 1;
+   
+    width: 185px;
+    height: 40px;
+    left: 637px;
+    top: 2366px;
+
+    background: linear-gradient(270deg, rgba(215, 58, 70, 0.9) 0%, #D73A46 100%);
+    border-radius: 50px;
+
+    cursor: pointer;
+    border: none;
+
+    color: white;
+}

@@ -44,7 +44,19 @@ module.exports = {
                   loader: "babel-loader",
                   options: {
                     presets: ['@babel/preset-env',"@babel/preset-react"]
-            }}}
+            }}},
+            // {
+            //     test: /\.(woff(2)?|ttf|otf|eot|jpg|png|jpeg|psd|gif)$/,
+            //     use: {
+            //       loader: 'file-loader',
+            //       options: {
+            //         name: '[name].[ext]',
+            //         outputPath: 'assets',
+            //         jsx: true,
+            //       },
+            //     },
+            //   },
         ]
+
     }
 }
