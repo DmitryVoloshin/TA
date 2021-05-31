@@ -14,7 +14,8 @@
     top:0px;
     background: linear-gradient(180deg, #CADFFF 0%, rgba(255, 255, 255, 0) 60.26%);
     height: 529px;
-    width: 1440px;
+    // width: 1440px;
+    width: 100%;
 }
 .header-logo_block{
     display: flex;
@@ -89,4 +90,15 @@ letter-spacing: 0.01em;
 .header-nav_item{
     padding-left: 39px;
 
+}
+
+@media(max-width:1190px){
+    .header-logo_block{padding-left: 90px;}
+    .header-right_nav{padding-right: 90px;}
+}
+@media(max-width:980px){
+    .header-nav_block{justify-content: space-around;}
+    .header-nav_item{padding-left: 19px;}
+    .header-logo_block{padding-left: 70px;}
+    .header-right_nav{padding-right: 50px;}
 }

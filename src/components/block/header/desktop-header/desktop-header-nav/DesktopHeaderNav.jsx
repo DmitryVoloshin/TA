@@ -25,7 +25,7 @@ const DesktopHeaderNav = ( ) =>{
                 <nav className="header-nav">
                     <ul className="header-nav_list">
                         {links.map((item) =>{
-                            return <li className="header-nav_item">
+                            return <li className="header-nav_item" key={item}>
                                         <a href="#" className="nav-item_link">
                                             {item}
                                         </a>
