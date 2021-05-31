@@ -1,0 +1,99 @@
+@import './../../../../styles/colors.less';
+
+.main-mobile_block{
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 100%;
+    height: 450px;
+}
+
+
+.mobile-main_swiper{
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        
+      
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        border-radius: 0;
+      }
+      
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-button-next{
+          height: 40px;
+          width: 40px;
+          background: url('./../../../../assets/icons/SVGS/arrowNext.svg');
+          position: absolute;
+          z-index: 3;
+          top:205px;
+          right: 15px;
+      }
+      .swiper-button-prev{
+        height: 40px;
+        width: 40px;
+        background: url('./../../../../assets/icons/SVGS/arrowPrev.svg');
+        position: absolute;
+        z-index: 3;
+        top:205px;
+        left: 15px;
+    }
+      .mobile-main_swiper--item:nth-child(1){
+          background: url('./../../../../assets/imgs/firstCarouselItem1.png') no-repeat center;
+          background-size: cover;
+      }
+      .mobile-main_swiper--item:nth-child(2){
+        background: url('./../../../../assets/imgs/firstCarouselItem2.png') no-repeat center;
+        background-size: cover;
+    }
+    .mobile-main_swiper--item:nth-child(3){
+        background: url('./../../../../assets/imgs/firstCarouselItem3.png') no-repeat center;
+        background-size: cover;
+    }
+    .mobile-main_swiper--gradient{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 300px;
+        background: linear-gradient(360deg, rgba(187, 61, 57, 0.96) 32.04%, rgba(193, 63, 59, 0.76) 40.06%, rgba(255, 255, 255, 0) 50%)
+    }
+
+
+    //block
+    .mobile-main_swiper--block{
+        position: absolute;
+        z-index: 3;
+        bottom: 15px;
+        left: 55px;
+        width: 40%;
+        color: white;
+        text-align: left;
+
+        .mobile-main_swiper--button{
+            color: @button-text-color;
+            margin-top: 10px;
+            background: #FFFFFF;
+            border-radius: 50px;
+            width: 190px;
+            height: 40px;
+            border: none;
+        }
+    }
+}
+

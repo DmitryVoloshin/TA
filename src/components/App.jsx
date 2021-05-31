@@ -8,6 +8,7 @@ import TrainingBlock from './block/training';
 import ContactBlock from './block/contact';
 
 import './app.less'
+import MainMobileBlock from './block/main/mobile-main/MainMobileBlock';
 
 
 const App = () => {
@@ -17,8 +18,9 @@ const App = () => {
     <div className="app">
 
       {isThisDesktop? <DesktopHeader/> : <MobileHeader/> }
-      {/* {isThisDesktop? <MainBlock/> : <div> main</div>} */}
+      {isThisDesktop? <MainBlock/> : <MainMobileBlock/>}
       {/* <TrainingBlock/> */}
+
       {/* <ContactBlock/> */}
       {/* <FooterBlock/> */}
 

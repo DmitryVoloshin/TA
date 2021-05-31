@@ -1,36 +1,38 @@
 import React from 'react';
 import BurgerNav from './mobile-header-nav/BurgerNav';
 
-import SideBar from "./sidebar";
+import search from './../../../../assets/icons/SVGS/search.svg'
+import language from './../../../../assets/icons/SVGS/language.svg'
 
 import './MobileHeader.less'
+import MobileHeaderContent from './mobile-header-content/MobileHeaderContent';
 
 const MobileHeader = ( ) =>{
     return ( 
         <div className="mobile-header_wrapper">
             <BurgerNav/>
 
-            <h2 className="mobile-header_title">Tukrish Airline</h2>
-
-            <div>
-        
+            <div className="mobile-header_logo--block">
+                <h2>Tukrish Airline</h2>
             </div>
+            
+
+         
+            <ul className="mobile-right_nav">
+                  <li className="right-nav_item">
+                      <img src={search}/>
+                  </li>
+                  <li className="right-nav_item">
+                      <img src={language}/>
+                  </li>
+            </ul>
+        
 
 
-            {/* <>
-        <SideBar
-            id="side-bar"
-            // pageWrapId={"page-wrap"}
-            outerContainerId={"App"}
-        />
 
-        <div id="page-wrap">
-            <h2>Turkish Airline</h2>
-        </div>
-        </> */}
-
-
+        <MobileHeaderContent/>
         <div className="mobile-nav_gradient"/>
+        <div className="mobile-header_gradient"/>
         </div>
     )
 }
