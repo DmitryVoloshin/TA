@@ -5,11 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Pagination } from "swiper/core";
 SwiperCore.use([Pagination]);
 
-import './HeaderSlider.less'
-import SliderContent from './slider-content';
+import './DesktopHeaderSlider.less'
+import SliderContent from './slider-content/SliderContent'
 
 
-const HeaderSlider = ( ) =>{
+const DesktopHeaderSlider = ( ) =>{
     return (
         <>
         <Swiper
@@ -37,4 +37,4 @@ const HeaderSlider = ( ) =>{
     )
 }
 
-export default HeaderSlider
+export default DesktopHeaderSlider

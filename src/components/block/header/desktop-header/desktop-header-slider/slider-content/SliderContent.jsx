@@ -12,10 +12,10 @@ const SliderContent = ( ) =>{
                 consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore 
             </p>
-            {/* <div className="content-block_buttons"> */}
+        
                 <buttons className="block_buttons_white white">LEARN MORE</buttons>
                 <buttons className="block_buttons_red red">E-REGISTRATION</buttons>
-            {/* </div> */}
+           
         </div>
     )
 }

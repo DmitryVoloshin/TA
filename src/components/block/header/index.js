@@ -1,3 +1,3 @@
-import HeaderBlock from "./HeaderBlock";
+import DesktopHeader from "./desktop-header";
 
-export default HeaderBlock
+export {DesktopHeader};

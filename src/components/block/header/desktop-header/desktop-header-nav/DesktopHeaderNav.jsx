@@ -1,11 +1,13 @@
 import React from 'react';
 
-import search from './../../../../assets/icons/SVGS/search.svg';
-import language from './../../../../assets/icons/SVGS/language.svg';
-import './HeaderNav.less'
+
+import search from './../../../../../assets/icons/SVGS/search.svg';
+import language from './../../../../../assets/icons/SVGS/language.svg';
+
+import './DesktopHeaderNav.less'
 
 
-const HeaderNav = ( ) =>{
+const DesktopHeaderNav = ( ) =>{
 
     const links = ['About us',"Simulators","Trainings","Schedule","Contact"]
 
@@ -45,4 +47,4 @@ const HeaderNav = ( ) =>{
     )
 }
 
-export default HeaderNav
+export default DesktopHeaderNav
