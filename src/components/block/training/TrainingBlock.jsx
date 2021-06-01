@@ -29,27 +29,27 @@ const TrainingBlock = () => {
       }} navigation={true} className="mySecondSwiper">
           <SwiperSlide>
             <div className="second-swiper_item">
-              <img src={plane}/>
+              <img src={plane} className="second-swiper_img"/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="second-swiper_item">
-              <img src={plane}/>
+              <img src={plane} className="second-swiper_img"/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="second-swiper_item">
-              <img src={plane}/>
+              <img src={plane} className="second-swiper_img"/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="second-swiper_item">
-              <img src={plane}/>
+              <img src={plane} className="second-swiper_img"/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="second-swiper_item">
-              <img src={plane}/>
+              <img src={plane} className="second-swiper_img"/>
             </div>
           </SwiperSlide>
 
