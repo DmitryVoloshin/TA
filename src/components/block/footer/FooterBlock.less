@@ -1,7 +1,8 @@
 .footer-block{
     // color: red;
     position: relative;
-    width: 1440px;
+    // width: 1440px;
+    width: 100%;
     height: 286px;
     font-size: 14px;
     background: radial-gradient(130.5% 50% at 50% 50%, rgba(106, 164, 204, 0.49) 0%, #6AA4CC 100%);
@@ -12,17 +13,20 @@
     background-image: url('./../../../assets/icons/mainLogo.png');
     background-size: cover;
     position: absolute;
-    margin-right: 650px;
-    margin-left: 650px;
+    // margin-right: 650px;
+    // margin-left: 650px;
+    left: 46%;
     top: -50px;
 }
 .footer-content_nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 70px;
-    padding-left: 363px;
-    padding-right: 363px;
+    // padding-left: 363px;
+    // padding-right: 363px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 .footer-nav_list li:first-child{
     font-weight: 800;
@@ -40,8 +44,8 @@
     border-top: 1px solid rgba(11, 63, 99, 0.25);
 }
 .footer-socials_list{
-    padding-left: 603px;
-    padding-right: 603px;
+    padding-left: 20%;
+    padding-right: 20%;
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
@@ -56,3 +60,8 @@
 .socials-tw{ background-image: url('./../../../assets/icons/tw.png'); background-size: cover;}
 .socials-in{ background-image: url('./../../../assets/icons/inst.png'); background-size: cover;}
 .socials-pi{ background-image: url('./../../../assets/icons/pint.png'); background-size: cover;}
+
+
+@media(max-width:1280px){
+
+}

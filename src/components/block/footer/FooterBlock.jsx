@@ -39,8 +39,8 @@ const FooterBlock = ( ) =>{
                     <ul className="footer-socials_list">
                         <a href="#"><li className="socials-fb socials"></li></a>
                         <a href="#"><li className="socials-tw socials"></li></a>
-                        <li className="socials-in socials"></li>
-                        <li className="socials-pi socials"></li>
+                        <a href="#"><li className="socials-in socials"></li></a>
+                        <a href="#"><li className="socials-pi socials"></li></a>
                     </ul>
                 </div>
             </div>

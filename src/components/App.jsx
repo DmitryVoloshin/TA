@@ -19,10 +19,9 @@ const App = () => {
 
       {isThisDesktop? <DesktopHeader/> : <MobileHeader/> }
       {isThisDesktop? <MainBlock/> : <MainMobileBlock/>}
-      {/* <TrainingBlock/> */}
-
-      {/* <ContactBlock/> */}
-      {/* <FooterBlock/> */}
+      <TrainingBlock/>
+      <ContactBlock/>
+      <FooterBlock/>
 
     </div>
   )

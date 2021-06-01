@@ -6,6 +6,7 @@ import SwiperCore, { Navigation } from "swiper/core";
 SwiperCore.use([Navigation]);
 
 import './MainMobileBlock.less'
+import MainContent from '../main-content';
 
 
 const MainMobileBlock = ( ) =>{
@@ -62,6 +63,7 @@ const MainMobileBlock = ( ) =>{
 
             </SwiperSlide>
         </Swiper>
+        <MainContent/>
       </div>
     )
 }
