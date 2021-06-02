@@ -1,3 +1,3 @@
 import DesktopHeaderSlider from "./DesktopHeaderSlider";
 
-export default DesktopHeaderSlider
+export default DesktopHeaderSlider;

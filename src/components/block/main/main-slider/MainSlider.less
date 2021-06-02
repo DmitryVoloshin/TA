@@ -1,197 +1,204 @@
-@import './../../../../styles/colors.less';
-
+@import "./../../../../styles/colors.less";
 
 .swiper-slide-next {
-    border-radius: 0px 13px 13px 03px;
+  border-radius: 0px 13px 13px 03px;
 
-    .carousel-item_info {
-        .carousel-info_title {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: @regular-white-color;
-            background: linear-gradient(270deg, @button-text-color 0%, rgba(215, 58, 70, 0.7) 100%);
-            transform: rotate(90deg);
-            font-size: 20px;
-            height: 50px;
-            margin-left: 70px;
-
-        }
-
-        .item-info_br {
-            display: none;
-        }
-
-        .carousel-info_text {
-            display: none;
-        }
-
-        .carousel-info_text {
-            display: none;
-        }
-
-        .carousel-active_button {
-            display: none;
-        }
+  .carousel-item_info {
+    .carousel-info_title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: @regular-white-color;
+      background: linear-gradient(
+        270deg,
+        @button-text-color 0%,
+        rgba(215, 58, 70, 0.7) 100%
+      );
+      transform: rotate(90deg);
+      font-size: 20px;
+      height: 50px;
+      margin-left: 70px;
     }
 
+    .item-info_br {
+      display: none;
+    }
+
+    .carousel-info_text {
+      display: none;
+    }
+
+    .carousel-info_text {
+      display: none;
+    }
+
+    .carousel-active_button {
+      display: none;
+    }
+  }
 }
 
 .swiper-slide-prev {
-    border-radius: 13px 0px 0px 13px;
+  border-radius: 13px 0px 0px 13px;
 
-    .carousel-item_info {
-        .carousel-info_title {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: @regular-white-color;
-            background: linear-gradient(270deg, @button-text-color 0%, rgba(215, 58, 70, 0.7) 100%);
-            transform: rotate(-90deg);
-            font-size: 20px;
-            height: 50px;
-            margin-right: 70px;
-        }
-
-        .item-info_br {
-            display: none;
-        }
-
-        .carousel-info_text {
-            display: none;
-        }
-
-        .carousel-info_text {
-            display: none;
-        }
-
-        .carousel-active_button {
-            display: none;
-        }
+  .carousel-item_info {
+    .carousel-info_title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: @regular-white-color;
+      background: linear-gradient(
+        270deg,
+        @button-text-color 0%,
+        rgba(215, 58, 70, 0.7) 100%
+      );
+      transform: rotate(-90deg);
+      font-size: 20px;
+      height: 50px;
+      margin-right: 70px;
     }
+
+    .item-info_br {
+      display: none;
+    }
+
+    .carousel-info_text {
+      display: none;
+    }
+
+    .carousel-info_text {
+      display: none;
+    }
+
+    .carousel-active_button {
+      display: none;
+    }
+  }
 }
 
 .item-info_br {
-    width: 306px;
-    border: 1px solid @regular-white-color;
-    height: 0px;
-    margin-top: 10px;
-    margin-bottom: 8px;
+  width: 306px;
+  border: 1px solid @regular-white-color;
+  height: 0px;
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 
 .carousel-info_title {
-    height: 31px;
-    width: 306px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23px; //26
-    line-height: 30px;
+  height: 31px;
+  width: 306px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 23px; //26
+  line-height: 30px;
 }
 
 .carousel-info_text {
-    width: 306px;
-    height: 50px;
+  width: 306px;
+  height: 50px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
 }
 
-
 .main-content_swiper {
-    color: @regular-white-color;
-   
-    .swiper-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 1140px;
-        height: 432px;
+  color: @regular-white-color;
+
+  .swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1140px;
+    height: 432px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    height: 306px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .content-swiper_first {
+    background: url("./../../../../assets/imgs/firstCarouselItem1.png")
+      no-repeat center;
+    background-size: cover;
+  }
+
+  .content-swiper_second {
+    background: url("./../../../../assets/imgs/firstCarouselItem2.png")
+      no-repeat center;
+    background-size: cover;
+  }
+
+  .content-swiper_third {
+    background: url("./../../../../assets/imgs/firstCarouselItem3.png")
+      no-repeat center;
+    background-size: cover;
+  }
+
+  .swiper-slide-active {
+    width: 640px !important;
+    height: 432px;
+    border-radius: 13px;
+
+    .gradient-block {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      border-radius: 13px;
+      width: 100%;
+      height: 400px;
+      background: linear-gradient(
+        360deg,
+        rgba(187, 61, 57, 0.96) 32.04%,
+        rgba(193, 63, 59, 0.76) 40.06%,
+        rgba(255, 255, 255, 0) 50%
+      );
     }
 
+    .carousel-active_gradient {
+      .carousel-item_info {
+        position: absolute;
+        left: 50px;
+        bottom: 40px;
+        text-align: left;
+      }
 
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
+      .carousel-active_button {
+        position: absolute;
+        width: 190px;
+        height: 40px;
+        left: 350px;
+        bottom: 35px;
+        background: @regular-white-color;
+        border: none;
+        border-radius: 50px;
 
-        height: 306px;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: @button-text-color;
+      }
     }
-
-    .content-swiper_first {
-        background: url('./../../../../assets/imgs/firstCarouselItem1.png') no-repeat center;
-        background-size: cover;
-    }
-
-    .content-swiper_second {
-        background: url('./../../../../assets/imgs/firstCarouselItem2.png') no-repeat center;
-        background-size: cover;
-    }
-
-    .content-swiper_third {
-        background: url('./../../../../assets/imgs/firstCarouselItem3.png') no-repeat center;
-        background-size: cover;
-    }
-
-    .swiper-slide-active {
-        width: 640px !important;
-        height: 432px;
-        border-radius: 13px;
-
-
-        .gradient-block {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            border-radius: 13px;
-            width: 100%;
-            height: 400px;
-            background: linear-gradient(360deg, rgba(187, 61, 57, 0.96) 32.04%, rgba(193, 63, 59, 0.76) 40.06%, rgba(255, 255, 255, 0) 50%);
-        }
-
-        .carousel-active_gradient {
-
-            .carousel-item_info {
-                position: absolute;
-                left: 50px;
-                bottom: 40px;
-                text-align: left;
-            }
-
-            .carousel-active_button {
-                position: absolute;
-                width: 190px;
-                height: 40px;
-                left: 350px;
-                bottom: 35px;
-                background: @regular-white-color;
-                border: none;
-                border-radius: 50px;
-
-
-                font-family: Roboto;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 19px;
-                color: @button-text-color;
-            }
-        }
-
-    }
+  }
 }

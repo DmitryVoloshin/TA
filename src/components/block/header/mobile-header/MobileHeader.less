@@ -1,75 +1,82 @@
-@import './../../../../styles/colors.less';
+@import "./../../../../styles/colors.less";
 
 .mobile-header_wrapper {
-    overflow: hidden;
-    width: 100%;
-    height: 450px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background: url('./../../../../assets/imgs/planeBG.png') center;
-    background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: url("./../../../../assets/imgs/planeBG.png") center;
+  background-size: cover;
 }
 
 .mobile-header_logo--block {
-    position: absolute;
-    top: 10px;
-    font-size: 25px;
-    font-weight: 800;
-    color: @main-header-color;
-    z-index: 1;
+  position: absolute;
+  top: 10px;
+  font-size: 25px;
+  font-weight: 800;
+  color: @main-header-color;
+  z-index: 1;
 }
 
 .mobile-nav_gradient {
-    position: absolute;
-    top: 0px;
-    background: linear-gradient(180deg, #CADFFF 0%, rgba(255, 255, 255, 0) 80.26%);
-    height: 450px;
-    width: 100%;
+  position: absolute;
+  top: 0px;
+  background: linear-gradient(
+    180deg,
+    #cadfff 0%,
+    rgba(255, 255, 255, 0) 80.26%
+  );
+  height: 450px;
+  width: 100%;
 }
 
 .mobile-header_gradient {
-    position: absolute;
-    width: 100%;
-    height: 455px;
-    background: linear-gradient(180deg, @regular-white-color 0%, rgba(255, 255, 255, 0) 80%);
-    transform: rotate(-180deg);
+  position: absolute;
+  width: 100%;
+  height: 455px;
+  background: linear-gradient(
+    180deg,
+    @regular-white-color 0%,
+    rgba(255, 255, 255, 0) 80%
+  );
+  transform: rotate(-180deg);
 }
 
 .mobile-right_nav {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    width: 100px;
-    height: 55px;
-    z-index: 1;
-    display: flex;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  width: 100px;
+  height: 55px;
+  z-index: 1;
+  display: flex;
 }
 
-@media(max-width:462px) {
-    .mobile-header_logo--block {
-        left: 110px;
-    }
+@media (max-width: 462px) {
+  .mobile-header_logo--block {
+    left: 110px;
+  }
 }
 
-@media(max-width:414px) {
-    .mobile-header_logo--block {
-        left: 105px;
-        font-size: 19px;
-        top: 15px;
-    }
+@media (max-width: 414px) {
+  .mobile-header_logo--block {
+    left: 105px;
+    font-size: 19px;
+    top: 15px;
+  }
 }
 
-@media(max-width:375px) {
-
-    .mobile-right_nav {
-        right: 0px;
-    }
+@media (max-width: 375px) {
+  .mobile-right_nav {
+    right: 0px;
+  }
 }
 
-@media(max-width:360px) {
-    .mobile-header_logo--block {
-        left: 90px;
-    }
+@media (max-width: 360px) {
+  .mobile-header_logo--block {
+    left: 90px;
+  }
 }

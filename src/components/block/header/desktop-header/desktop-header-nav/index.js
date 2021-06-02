@@ -1,3 +1,3 @@
 import DesktopHeaderNav from "./DesktopHeaderNav";
 
-export default DesktopHeaderNav
+export default DesktopHeaderNav;

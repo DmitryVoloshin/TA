@@ -1,3 +1,3 @@
 import ContactBlock from "./ContactBlock";
 
-export default ContactBlock
+export default ContactBlock;

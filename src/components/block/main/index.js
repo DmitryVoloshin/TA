@@ -1,3 +1,3 @@
 import MainBlock from "./MainBlock";
 
-export default MainBlock
+export default MainBlock;

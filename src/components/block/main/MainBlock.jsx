@@ -1,16 +1,16 @@
-import React from 'react';
-import MainContent from './main-content';
-import MainSlider from './main-slider';
+import React from "react";
+import MainContent from "./main-content";
+import MainSlider from "./main-slider";
 
-import './MainBlock.less'
+import "./MainBlock.less";
 
 const MainBlock = () => {
   return (
     <main className="main-block">
-      <MainSlider/>
-      <MainContent/>
+      <MainSlider />
+      <MainContent />
     </main>
-  )
-}
+  );
+};
 
-export default MainBlock
+export default MainBlock;

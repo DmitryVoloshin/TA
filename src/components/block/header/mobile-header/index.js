@@ -1,3 +1,3 @@
 import MobileHeader from "./MobileHeader";
 
-export default MobileHeader
+export default MobileHeader;

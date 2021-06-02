@@ -7,7 +7,7 @@ import NavigationList from "./NavigationList";
 const contentStyle = {
   background: "rgba(255,255,255,0)",
   width: "80%",
-  border: "none"
+  border: "none",
 };
 
 const BurgerNav = () => (
@@ -17,11 +17,11 @@ const BurgerNav = () => (
       overlayStyle={{ background: "rgba(255,255,255,0.98" }}
       contentStyle={contentStyle}
       closeOnDocumentClick={false}
-      trigger={open => <BurgerIcon open={open} />}
+      trigger={(open) => <BurgerIcon open={open} />}
     >
-      {close => <NavigationList close={close} />}
+      {(close) => <NavigationList close={close} />}
     </Popup>
-    </>
+  </>
 );
 
-export default BurgerNav
+export default BurgerNav;

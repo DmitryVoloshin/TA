@@ -1,3 +1,3 @@
 import FooterBlock from "./FooterBlock";
 
-export default FooterBlock
+export default FooterBlock;

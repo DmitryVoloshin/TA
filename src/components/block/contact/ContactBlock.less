@@ -1,168 +1,166 @@
-@import './../../../styles/colors.less';
+@import "./../../../styles/colors.less";
 
 .contact-block_wrapper {
-    position: relative;
-    margin-top: 270px;
-    margin-bottom: 200px;
+  position: relative;
+  margin-top: 270px;
+  margin-bottom: 200px;
 }
 
 .contact-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 326px;
-    width: 732px;
-    left: 354px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 326px;
+  width: 732px;
+  left: 354px;
 }
 
 .contact-block_title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 59px;
-    letter-spacing: 0.2em;
-    color: @main-header-color;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  letter-spacing: 0.2em;
+  color: @main-header-color;
 }
 
 .contact-second_title {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    color: @second-color;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: @second-color;
 }
 
 .contact-main_text {
-    width: 732px;
-    height: 70px;
-    padding-top: 40px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 145.19%;
-    text-align: center;
-    color: @third-color-gray;
+  width: 732px;
+  height: 70px;
+  padding-top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 145.19%;
+  text-align: center;
+  color: @third-color-gray;
 }
 
 .contact-block_buttons {
-    padding-top: 90px;
+  padding-top: 90px;
 }
 
 .contact-block_button {
-    width: 158px;
-    height: 40px;
-    border-radius: 50px;
-    border: none;
-    outline: none;
-    cursor: pointer;
+  width: 158px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
 }
 
-
 .white {
-    margin-right: 10px;
-    color: @button-text-color;
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid @button-text-color;
+  margin-right: 10px;
+  color: @button-text-color;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid @button-text-color;
 }
 
 .red {
-    margin-left: 10px;
-    background: @red-button-gradient;
-    color: @regular-white-color;
+  margin-left: 10px;
+  background: @red-button-gradient;
+  color: @regular-white-color;
 }
 
 .contact-block_circle {
-    position: absolute;
-    top: 80px;
-    left: 750px;
-    width: 330px;
-    height: 725px;
-    background: url('./../../../assets/icons/SVGS/contactCircle.svg') no-repeat;
-
+  position: absolute;
+  top: 80px;
+  left: 750px;
+  width: 330px;
+  height: 725px;
+  background: url("./../../../assets/icons/SVGS/contactCircle.svg") no-repeat;
 }
 
-@media(max-width:1280px) {
-    .contact-block_circle {
-        left: 92%;
-    }
+@media (max-width: 1280px) {
+  .contact-block_circle {
+    left: 92%;
+  }
 }
 
-@media(max-width:1024px) {
-    .contact-block_circle {
-        left: 72%;
-    }
+@media (max-width: 1024px) {
+  .contact-block_circle {
+    left: 72%;
+  }
 }
 
-@media(max-width:968px) {
-    .contact-block_circle {
-        left: 70%;
-        z-index: -1;
-    }
+@media (max-width: 968px) {
+  .contact-block_circle {
+    left: 70%;
+    z-index: -1;
+  }
 }
 
-@media(max-width:768px) {
-    .contact-block_circle {
-        left: 57%;
-    }
+@media (max-width: 768px) {
+  .contact-block_circle {
+    left: 57%;
+  }
 }
 
-@media(max-width:640px) {
-    .contact-block_circle {
-        left: 47%;
-    }
+@media (max-width: 640px) {
+  .contact-block_circle {
+    left: 47%;
+  }
 
-    .contact-block {
-        width: 100%;
-    }
+  .contact-block {
+    width: 100%;
+  }
 
-    .contact-main_text {
-        width: 80%;
-    }
+  .contact-main_text {
+    width: 80%;
+  }
 }
 
-@media(max-width:568px) {
-    .contact-block_circle {
-        left: 41%;
-    }
+@media (max-width: 568px) {
+  .contact-block_circle {
+    left: 41%;
+  }
 }
 
-@media(max-width:462px) {
-    .contact-block_circle {
-        left: 28%;
-    }
+@media (max-width: 462px) {
+  .contact-block_circle {
+    left: 28%;
+  }
 }
 
-@media(max-width:414px) {
-    .contact-block_circle {
-        left: 19%;
-    }
+@media (max-width: 414px) {
+  .contact-block_circle {
+    left: 19%;
+  }
 }
 
-@media(max-width:375px) {
-    .contact-block_title {
-        text-align: center;
-    }
+@media (max-width: 375px) {
+  .contact-block_title {
+    text-align: center;
+  }
 
-    .contact-block_circle {
-        left: 11%;
-    }
+  .contact-block_circle {
+    left: 11%;
+  }
 }
 
-@media(max-width:360px) {
-    .contact-block_circle {
-        left: 8%;
-    }
+@media (max-width: 360px) {
+  .contact-block_circle {
+    left: 8%;
+  }
 
-    .contact-block_buttons {
-        padding-top: 110px;
-    }
+  .contact-block_buttons {
+    padding-top: 110px;
+  }
 }
