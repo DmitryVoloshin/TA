@@ -18,7 +18,8 @@ const TrainingBlock = () => {
       <h3 className="training-second_title">SIMULATOR DEVICES</h3>
 
       <div className="training-block_slider">
-        <Swiper pagination={{
+        <Swiper
+          pagination={{
           clickable: true,
           dynamicBullets: true,
           renderBullet: function (index, className) {
@@ -26,7 +27,9 @@ const TrainingBlock = () => {
                 '<p class="pepe">BOEING</p>' +
                 "</span>";
           }
-      }} navigation={true} className="mySecondSwiper">
+        }}
+          navigation={true}
+          className="mySecondSwiper">
           <SwiperSlide>
             <div className="second-swiper_item">
               <img src={plane} className="second-swiper_img"/>

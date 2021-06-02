@@ -33,7 +33,6 @@ const DesktopHeaderNav = ( ) =>{
                         })}
                     </ul>
                 </nav>
-    
             <ul className="header-right_nav">
                   <li className="right-nav_item">
                       <img src={search}/>

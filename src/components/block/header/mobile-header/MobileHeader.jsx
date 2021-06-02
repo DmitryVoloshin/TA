@@ -7,34 +7,29 @@ import language from './../../../../assets/icons/SVGS/language.svg'
 import './MobileHeader.less'
 import MobileHeaderContent from './mobile-header-content/MobileHeaderContent';
 
-const MobileHeader = ( ) =>{
-    return ( 
-        <div className="mobile-header_wrapper">
-            <BurgerNav/>
+const MobileHeader = () => {
+  return (
+    <div className="mobile-header_wrapper">
+      <BurgerNav/>
 
-            <div className="mobile-header_logo--block">
-                <h2>Tukrish Airline</h2>
-            </div>
-            
+      <div className="mobile-header_logo--block">
+        <h2>Tukrish Airline</h2>
+      </div>
 
-         
-            <ul className="mobile-right_nav">
-                  <li className="right-nav_item">
-                      <img src={search}/>
-                  </li>
-                  <li className="right-nav_item">
-                      <img src={language}/>
-                  </li>
-            </ul>
-        
+      <ul className="mobile-right_nav">
+        <li className="right-nav_item">
+          <img src={search}/>
+        </li>
+        <li className="right-nav_item">
+          <img src={language}/>
+        </li>
+      </ul>
 
-
-
-        <MobileHeaderContent/>
-        <div className="mobile-nav_gradient"/>
-        <div className="mobile-header_gradient"/>
-        </div>
-    )
+      <MobileHeaderContent/>
+      <div className="mobile-nav_gradient"/>
+      <div className="mobile-header_gradient"/>
+    </div>
+  )
 }
 
 export default MobileHeader

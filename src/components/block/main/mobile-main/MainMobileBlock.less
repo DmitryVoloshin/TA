@@ -1,6 +1,6 @@
 @import './../../../../styles/colors.less';
 
-.main-mobile_block{
+.main-mobile_block {
     margin-top: 55px;
     margin-bottom: 55px;
     width: 100%;
@@ -8,12 +8,12 @@
 }
 
 
-.mobile-main_swiper{
+.mobile-main_swiper {
     .swiper-slide {
         text-align: center;
         font-size: 18px;
-        
-      
+
+
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
@@ -28,45 +28,51 @@
         -webkit-align-items: center;
         align-items: center;
         border-radius: 0;
-      }
-      
-      .swiper-slide img {
+    }
+
+    .swiper-slide img {
         display: block;
         width: 100%;
         height: 100%;
         object-fit: cover;
-      }
-      .swiper-button-next{
-          height: 40px;
-          width: 40px;
-          background: url('./../../../../assets/icons/SVGS/arrowNext.svg');
-          position: absolute;
-          z-index: 3;
-          top:205px;
-          right: 15px;
-      }
-      .swiper-button-prev{
+    }
+
+    .swiper-button-next {
+        height: 40px;
+        width: 40px;
+        background: url('./../../../../assets/icons/SVGS/arrowNext.svg');
+        position: absolute;
+        z-index: 3;
+        top: 205px;
+        right: 15px;
+    }
+
+    .swiper-button-prev {
         height: 40px;
         width: 40px;
         background: url('./../../../../assets/icons/SVGS/arrowPrev.svg');
         position: absolute;
         z-index: 3;
-        top:205px;
+        top: 205px;
         left: 15px;
     }
-      .mobile-main_swiper--item:nth-child(1){
-          background: url('./../../../../assets/imgs/firstCarouselItem1.png') no-repeat center;
-          background-size: cover;
-      }
-      .mobile-main_swiper--item:nth-child(2){
+
+    .mobile-main_swiper--item:nth-child(1) {
+        background: url('./../../../../assets/imgs/firstCarouselItem1.png') no-repeat center;
+        background-size: cover;
+    }
+
+    .mobile-main_swiper--item:nth-child(2) {
         background: url('./../../../../assets/imgs/firstCarouselItem2.png') no-repeat center;
         background-size: cover;
     }
-    .mobile-main_swiper--item:nth-child(3){
+
+    .mobile-main_swiper--item:nth-child(3) {
         background: url('./../../../../assets/imgs/firstCarouselItem3.png') no-repeat center;
         background-size: cover;
     }
-    .mobile-main_swiper--gradient{
+
+    .mobile-main_swiper--gradient {
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -76,7 +82,7 @@
 
 
     //block
-    .mobile-main_swiper--block{
+    .mobile-main_swiper--block {
         position: absolute;
         z-index: 3;
         bottom: 15px;
@@ -85,7 +91,7 @@
         color: white;
         text-align: left;
 
-        .mobile-main_swiper--button{
+        .mobile-main_swiper--button {
             color: @button-text-color;
             margin-top: 10px;
             background: #FFFFFF;
@@ -97,3 +103,20 @@
     }
 }
 
+@media(max-width:462px) {
+    .mobile-main_swiper .mobile-main_swiper--block {
+        width: 80%;
+    }
+}
+
+@media(max-width:360px) {
+
+    .mobile-main_swiper .mobile-main_swiper--block {
+        left: 36px;
+        text-align: center;
+    }
+
+    .item-info_br {
+        width: 288px;
+    }
+}

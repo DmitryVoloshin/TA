@@ -1,4 +1,4 @@
-.footer-block{
+.footer-block {
     // color: red;
     position: relative;
     // width: 1440px;
@@ -7,7 +7,8 @@
     font-size: 14px;
     background: radial-gradient(130.5% 50% at 50% 50%, rgba(106, 164, 204, 0.49) 0%, #6AA4CC 100%);
 }
-.footer-block_logo{
+
+.footer-block_logo {
     height: 100px;
     width: 100px;
     background-image: url('./../../../assets/icons/mainLogo.png');
@@ -18,7 +19,8 @@
     left: 46%;
     top: -50px;
 }
-.footer-content_nav{
+
+.footer-content_nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -28,22 +30,26 @@
     padding-left: 20%;
     padding-right: 20%;
 }
-.footer-nav_list li:first-child{
+
+.footer-nav_list li:first-child {
     font-weight: 800;
     padding-bottom: 10px;
     color: #151515;
     padding-top: 0px;
 }
-.footer-nav_list li{
+
+.footer-nav_list li {
     color: #5E5E5E;
     padding-top: 5px;
 }
-.footer-socials_block{
+
+.footer-socials_block {
     height: 98px;
     margin-top: 35px;
     border-top: 1px solid rgba(11, 63, 99, 0.25);
 }
-.footer-socials_list{
+
+.footer-socials_list {
     padding-left: 20%;
     padding-right: 20%;
     padding-top: 30px;
@@ -51,23 +57,69 @@
     display: flex;
     justify-content: space-between;
 }
-.socials{
+
+.socials {
     height: 38px;
     width: 38px;
     cursor: pointer;
 }
-.socials-fb{ background-image: url('./../../../assets/icons/fb.png'); background-size: cover;}
-.socials-tw{ background-image: url('./../../../assets/icons/tw.png'); background-size: cover;}
-.socials-in{ background-image: url('./../../../assets/icons/inst.png'); background-size: cover;}
-.socials-pi{ background-image: url('./../../../assets/icons/pint.png'); background-size: cover;}
+
+.socials-fb {
+    background-image: url('./../../../assets/icons/fb.png');
+    background-size: cover;
+}
+
+.socials-tw {
+    background-image: url('./../../../assets/icons/tw.png');
+    background-size: cover;
+}
+
+.socials-in {
+    background-image: url('./../../../assets/icons/inst.png');
+    background-size: cover;
+}
+
+.socials-pi {
+    background-image: url('./../../../assets/icons/pint.png');
+    background-size: cover;
+}
 
 
-@media(max-width:640px){
-    .footer-content_nav{
+@media(max-width:640px) {
+    .footer-content_nav {
         padding-left: 5%;
         padding-right: 5%;
     }
-    .footer-block_logo{
+
+    .footer-block_logo {
         left: 42%;
+    }
+}
+
+@media(max-width:462px) {
+    .footer-block {
+        height: 346px;
+    }
+
+    .footer-block_logo {
+        left: 38%;
+    }
+
+    .footer-content_nav {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
+    }
+
+}
+
+@media(max-width:375px) {
+    .footer-content_nav {
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px;
+    }
+
+    .footer-block {
+        height: 406px;
     }
 }

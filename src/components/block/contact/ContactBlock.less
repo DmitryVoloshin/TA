@@ -1,9 +1,10 @@
-.contact-block_wrapper{
+.contact-block_wrapper {
     position: relative;
     margin-top: 270px;
     margin-bottom: 200px;
 }
-.contact-block{
+
+.contact-block {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +13,7 @@
     left: 354px;
 }
 
-.contact-block_title{
+.contact-block_title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -22,7 +23,7 @@
     color: #BA302C;
 }
 
-.contact-second_title{
+.contact-second_title {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -30,7 +31,8 @@
     line-height: 21px;
     color: #151515;
 }
-.contact-main_text{
+
+.contact-main_text {
     width: 732px;
     height: 70px;
     padding-top: 40px;
@@ -42,10 +44,12 @@
     text-align: center;
     color: #5E5E5E;
 }
-.contact-block_buttons{
+
+.contact-block_buttons {
     padding-top: 90px;
 }
-.contact-block_button{
+
+.contact-block_button {
     width: 158px;
     height: 40px;
     border-radius: 50px;
@@ -53,7 +57,8 @@
     outline: none;
     cursor: pointer;
 }
-.white{
+
+.white {
     margin-right: 10px;
     color: #D73A46;
     background-color: rgba(255, 255, 255, 0);
@@ -65,7 +70,8 @@
     font-size: 16px;
     line-height: 19px;
 }
-.red{
+
+.red {
     margin-left: 10px;
     background: linear-gradient(270deg, rgba(215, 58, 70, 0.9) 0%, #D73A46 100%);
     color: white;
@@ -77,50 +83,89 @@
     line-height: 19px;
 }
 
-.contact-block_circle{
+.contact-block_circle {
     position: absolute;
     top: 80px;
     left: 750px;
     width: 330px;
     height: 725px;
     background: url('./../../../assets/icons/SVGS/contactCircle.svg') no-repeat;
-  
+
 }
 
-@media(max-width:1280px){
-    .contact-block_circle{
+@media(max-width:1280px) {
+    .contact-block_circle {
         left: 92%;
     }
 }
-@media(max-width:1024px){
-    .contact-block_circle{
+
+@media(max-width:1024px) {
+    .contact-block_circle {
         left: 72%;
     }
 }
-@media(max-width:968px){
-    .contact-block_circle{
+
+@media(max-width:968px) {
+    .contact-block_circle {
         left: 70%;
         z-index: -1;
     }
 }
-@media(max-width:768px){
-    .contact-block_circle{
+
+@media(max-width:768px) {
+    .contact-block_circle {
         left: 57%;
     }
 }
-@media(max-width:640px){
-    .contact-block_circle{
+
+@media(max-width:640px) {
+    .contact-block_circle {
         left: 47%;
     }
-    .contact-block{
+
+    .contact-block {
         width: 100%;
     }
-    .contact-main_text{
+
+    .contact-main_text {
         width: 80%;
     }
 }
-@media(max-width:568px){
-    .contact-block_circle{
+
+@media(max-width:568px) {
+    .contact-block_circle {
         left: 41%;
+    }
+}
+
+@media(max-width:462px) {
+    .contact-block_circle {
+        left: 28%;
+    }
+}
+
+@media(max-width:414px) {
+    .contact-block_circle {
+        left: 19%;
+    }
+}
+
+@media(max-width:375px) {
+    .contact-block_title {
+        text-align: center;
+    }
+
+    .contact-block_circle {
+        left: 11%;
+    }
+}
+
+@media(max-width:360px) {
+    .contact-block_circle {
+        left: 8%;
+    }
+
+    .contact-block_buttons {
+        padding-top: 110px;
     }
 }

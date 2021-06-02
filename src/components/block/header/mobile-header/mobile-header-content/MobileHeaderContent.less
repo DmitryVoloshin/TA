@@ -1,22 +1,24 @@
 @import './../../../../../styles/colors.less';
 
-.mobile-header_content{
+.mobile-header_content {
     z-index: 1;
-    color:  @main-header-color;
+    color: @main-header-color;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
-.mobile-header_content--title{
+
+.mobile-header_content--title {
     text-transform: uppercase;
     color: @second-color;
     font-weight: 500;
     font-size: 35px;
     line-height: 41px;
 }
-.mobile-header_content--button:nth-child(1){
+
+.mobile-header_content--button:nth-child(1) {
     width: 158px;
     height: 40px;
     display: flex;
@@ -29,7 +31,8 @@
     background: #FFFFFF;
     text-transform: uppercase;
 }
-.mobile-header_content--button:nth-child(2){
+
+.mobile-header_content--button:nth-child(2) {
     width: 158px;
     height: 40px;
     display: flex;
@@ -42,18 +45,27 @@
     background: #D73A46;
     text-transform: uppercase;
 }
-.mobile-header_buttons--block{
+
+.mobile-header_buttons--block {
     margin-top: 25px;
     display: flex;
-    
+
 }
-.mobile-header_content--title_second{
+
+.mobile-header_content--title_second {
     font-size: 35px;
     line-height: 41px;
 }
-.mobile-header_cotent--text{ 
+
+.mobile-header_cotent--text {
     text-align: center;
     width: 70%;
     font-size: 16px;
     line-height: 19px;
+}
+
+@media(max-width:360px) {
+    .mobile-header_content--title {
+        text-align: center;
+    }
 }
