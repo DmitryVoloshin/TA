@@ -1,3 +1,5 @@
+@import './../../../styles/colors.less';
+
 .contact-block_wrapper {
     position: relative;
     margin-top: 270px;
@@ -20,7 +22,7 @@
     font-size: 50px;
     line-height: 59px;
     letter-spacing: 0.2em;
-    color: #BA302C;
+    color: @main-header-color;
 }
 
 .contact-second_title {
@@ -29,7 +31,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    color: #151515;
+    color: @second-color;
 }
 
 .contact-main_text {
@@ -42,7 +44,7 @@
     font-size: 16px;
     line-height: 145.19%;
     text-align: center;
-    color: #5E5E5E;
+    color: @third-color-gray;
 }
 
 .contact-block_buttons {
@@ -56,31 +58,26 @@
     border: none;
     outline: none;
     cursor: pointer;
-}
-
-.white {
-    margin-right: 10px;
-    color: #D73A46;
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid #D73A46;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
+}
+
+
+.white {
+    margin-right: 10px;
+    color: @button-text-color;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid @button-text-color;
 }
 
 .red {
     margin-left: 10px;
-    background: linear-gradient(270deg, rgba(215, 58, 70, 0.9) 0%, #D73A46 100%);
-    color: white;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    background: @red-button-gradient;
+    color: @regular-white-color;
 }
 
 .contact-block_circle {

@@ -1,17 +1,20 @@
 import React from "react";
 
+const NavigationList = ({close}) => {
 
+  const linksList = ["About us","Simulators","Trainings","Schedule","Contact"]
 
- const NavigationList = ({ close }) => (
-  <div className="menu">
-    <ul>
-      <li onClick={close}>About us</li>
-      <li onClick={close}>Simulators</li>
-      <li onClick={close}>Trainings</li>
-      <li onClick={close}>Schedule</li>
-      <li onClick={close}>Contact</li>
-    </ul>
-  </div>
-);
+  return (
+    <div className="menu">
+      <ul>
+        {
+          linksList.map((item)=>{
+              return <li onClick={close} key={item}>{item}</li>
+          })
+        }
+      </ul>
+    </div>
+  )
+}
 
 export default NavigationList

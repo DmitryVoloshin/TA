@@ -1,3 +1,6 @@
+@import './../../../../styles/colors.less';
+
+
 .swiper-slide-next {
     border-radius: 0px 13px 13px 03px;
 
@@ -6,8 +9,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            color: white;
-            background: linear-gradient(270deg, #D73A46 0%, rgba(215, 58, 70, 0.7) 100%);
+            color: @regular-white-color;
+            background: linear-gradient(270deg, @button-text-color 0%, rgba(215, 58, 70, 0.7) 100%);
             transform: rotate(90deg);
             font-size: 20px;
             height: 50px;
@@ -42,8 +45,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            color: white;
-            background: linear-gradient(270deg, #D73A46 0%, rgba(215, 58, 70, 0.7) 100%);
+            color: @regular-white-color;
+            background: linear-gradient(270deg, @button-text-color 0%, rgba(215, 58, 70, 0.7) 100%);
             transform: rotate(-90deg);
             font-size: 20px;
             height: 50px;
@@ -70,7 +73,7 @@
 
 .item-info_br {
     width: 306px;
-    border: 1px solid #FFFFFF;
+    border: 1px solid @regular-white-color;
     height: 0px;
     margin-top: 10px;
     margin-bottom: 8px;
@@ -99,10 +102,8 @@
 
 
 .main-content_swiper {
-    color: white;
-
-
-
+    color: @regular-white-color;
+   
     .swiper-wrapper {
         display: flex;
         justify-content: center;
@@ -169,7 +170,7 @@
                 position: absolute;
                 left: 50px;
                 bottom: 40px;
-
+                text-align: left;
             }
 
             .carousel-active_button {
@@ -178,7 +179,7 @@
                 height: 40px;
                 left: 350px;
                 bottom: 35px;
-                background: #FFFFFF;
+                background: @regular-white-color;
                 border: none;
                 border-radius: 50px;
 
@@ -188,7 +189,7 @@
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 19px;
-                color: #D73A46;
+                color: @button-text-color;
             }
         }
 

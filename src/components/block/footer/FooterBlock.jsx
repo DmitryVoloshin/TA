@@ -11,26 +11,42 @@ const FooterBlock = () => {
         <ul className="footer-content_nav">
           <ul className="footer-nav_list">
             <li>About Us</li>
-            <li>History</li>
+            <li>
+              <a href="#" className="footer-list_link">History</a>
+            </li>
           </ul>
           <ul className="footer-nav_list">
             <li>Simulators</li>
-            <li>Simulators 1</li>
-            <li>Simulators 2</li>
-            <li>Simulators 3</li>
+            <li>
+              <a href="#" className="footer-list_link">Simulators 1</a>
+            </li>
+            <li>
+              <a href="#" className="footer-list_link">Simulators 2</a>
+            </li>
+            <li>
+              <a href="#" className="footer-list_link">Simulators 3</a>
+            </li>
           </ul>
           <ul className="footer-nav_list">
             <li>Trainings</li>
-            <li>Step 1</li>
-            <li>Step 2</li>
+            <li>
+              <a href="#" className="footer-list_link">Step 1</a>
+            </li>
+            <li>
+              <a href="#" className="footer-list_link">Step 2</a>
+            </li>
           </ul>
           <ul className="footer-nav_list">
             <li>Schedule</li>
-            <li>Schedule</li>
+            <li>
+              <a href="#" className="footer-list_link">Schedule</a>
+            </li>
           </ul>
           <ul className="footer-nav_list">
             <li>Contact</li>
-            <li>+0 000 000 00 00 0</li>
+            <li>
+              <a href="#" className="footer-list_link">+0 000 000 00 00 0</a>
+            </li>
           </ul>
         </ul>
         <div className="footer-socials_block">
